@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhotPkmn</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #0b0f17;
+      overflow: hidden;
+    }
+    #canvas {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script type="module">
+    import init from "./pkg/whotpkmn_lib.js";
+    init();
+  </script>
+</body>
+
+</html>
